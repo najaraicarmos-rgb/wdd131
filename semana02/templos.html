@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Álbum do Templo</title>
+    <meta name="description" content="Álbum de fotos de templos religiosos ao redor do mundo para a disciplina WDD 131.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Open+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="estilos/templos.css">
+    <link rel="stylesheet" href="estilos/templos-grandes.css" media="min-width: 768px">
+    <script src="scripts/templos.js" defer></script>
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <h1>Álbum do Templo</h1>
+            <button id="menu-button" aria-label="Abrir menu de navegação">☰</button>
+        </div>
+        <nav>
+            <ul id="nav-menu">
+                <li><a href="#" class="active">Página Inicial</a></li>
+                <li><a href="#">Antigo</a></li>
+                <li><a href="#">Novo</a></li>
+                <li><a href="#">Grande</a></li>
+                <li><a href="#">Pequeno</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Galeria de Templos</h2>
+        <div class="gallery-grid">
+            <figure>
+                <img src="imagens/templo1.jpg" alt="Templo de Campinas com palmeiras ao redor e céu claro" width="400" height="300" loading="lazy">
+                <figcaption>Templo de Campinas</figcaption>
+            </figure>
+            <figure>
+                <img src="imagens/templo2.jpg" alt="Fachada frontal do Templo de São Paulo sob céu azul" width="400" height="300" loading="lazy">
+                <figcaption>Templo de São Paulo</figcaption>
+            </figure>
+            <figure>
+                <img src="imagens/templo3.jpg" alt="Templo de Manaus com bandeira do Brasil hasteada na lateral" width="400" height="300" loading="lazy">
+                <figcaption>Templo de Manaus</figcaption>
+            </figure>
+            <figure>
+                <img src="imagens/templo4.jpg" alt="Templo de Porto Alegre cercado por gramados verdes e flores" width="400" height="300" loading="lazy">
+                <figcaption>Templo de Porto Alegre</figcaption>
+            </figure>
+            <figure>
+                <img src="imagens/templo5.jpg" alt="Templo de Fortaleza iluminado ao anoitecer com jardins e gramado frontal" width="400" height="300" loading="lazy">
+                <figcaption>Templo de Fortaleza</figcaption>
+            </figure>
+            <figure>
+                <img src="imagens/templo6.jpg" alt="Templo de Belém com escadarias e flores roxas no jardim" width="400" height="300" loading="lazy">
+                <figcaption>Templo de Belém</figcaption>
+            </figure>
+            <figure>
+                <img src="imagens/templo7.jpg" alt="Templo do Rio de Janeiro entre palmeiras sob o céu noturno" width="400" height="300" loading="lazy">
+                <figcaption>Templo do Rio de Janeiro</figcaption>
+            </figure>
+            <figure>
+                <img src="imagens/templo8.jpg" alt="Templo de Orem, Utah, com as montanhas Wasatch ao fundo durante o pôr do sol" width="400" height="300" loading="lazy">
+                <figcaption>Templo de Orem</figcaption>
+            </figure>
+            <figure>
+                <img src="imagens/templo9.jpg" alt="Templo de Salt Lake visto por trás de um canteiro de flores coloridas" width="400" height="300" loading="lazy">
+                <figcaption>Templo de Salt Lake</figcaption>
+            </figure>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; <span id="currentyear"></span> | Álbum do Templo | Najara Carmo</p>
+        <p class="last-modified">Última modificação: <span id="lastModified"></span></p>
+    </footer>
+</body>
+</html>
