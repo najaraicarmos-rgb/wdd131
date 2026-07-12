@@ -133,3 +133,37 @@ footer {
     color: var(--accent-color);
     margin-top: 0.5rem;
 }
+
+@media (min-width: 768px) {
+    #menu-button {
+        display: none;
+    }
+
+    header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 1rem 2rem;
+    }
+
+    .header-container {
+        flex-grow: 0;
+    }
+
+    nav ul {
+        display: flex;
+        flex-direction: row;
+        margin-top: 0;
+        gap: 0.5rem;
+    }
+
+    nav a {
+        border-radius: 4px;
+        padding: 0.5rem 1rem;
+    }
+
+    .gallery-grid {
+        grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+        gap: 2rem;
+    }
+}
